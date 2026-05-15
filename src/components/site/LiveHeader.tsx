@@ -47,7 +47,7 @@ export function LiveHeader() {
 
         <div className="chip border-primary/40 bg-primary/10 text-primary">
           <span className="h-1.5 w-1.5 rounded-full bg-primary" />
-          Fictional Satire
+          Live Match Intelligence
         </div>
       </div>
     </header>

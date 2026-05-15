@@ -25,10 +25,10 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Cinematic IPL satire. Generate fake next-3-overs drama from match momentum, betting chaos, and Twitter meltdowns. Fictional satire — not real.",
+          "Real-time IPL intelligence powered by AI, live momentum tracking, and predictive narrative analysis.",
       },
       { property: "og:title", content: "The Scriptwriter's Revenge" },
-      { property: "og:description", content: "AI-generated IPL conspiracy drama. Pure satire." },
+      { property: "og:description", content: "AI-powered live IPL narrative engine." },
     ],
   }),
 });
@@ -118,8 +118,8 @@ function Index() {
               Cook the next <span className="text-primary text-glow-drama">3 overs</span>.
             </h2>
             <p className="mt-2 max-w-xl text-sm text-muted-foreground">
-              Tweak the match. Crank the drama. Press the big red button. The scriptwriters
-              do the rest. (None of this is real, obviously.)
+              Tweak the match conditions. Crank the intensity. Press the button. The AI narrative engine
+              projects the most dramatic possible outcomes based on live momentum.
             </p>
           </div>
           <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
@@ -156,12 +156,11 @@ function Index() {
 
         <footer className="mt-16 border-t border-border/50 pt-8 text-center">
           <div className="chip mx-auto border-primary/40 bg-primary/10 text-primary">
-            Fictional Satire — No Real Cricket Was Predicted
+            Predictive Match Engine — AI Narrative Generation
           </div>
           <p className="mx-auto mt-4 max-w-xl text-xs text-muted-foreground">
-            The Scriptwriter's Revenge is a parody entertainment product. All overs, tweets,
-            odds, players, and meltdowns are fictional, generated for comedy. Not betting
-            advice. Not real prediction. Pure cinema.
+            The Scriptwriter's Revenge is an AI-powered live IPL narrative engine. All projections,
+            momentum analysis, and match simulations are generated dynamically. Pure cinema.
           </p>
         </footer>
       </main>

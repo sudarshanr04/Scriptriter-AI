@@ -19,7 +19,7 @@ export function Hero({ onStart }: HeroProps) {
           className="flex flex-wrap items-center justify-center gap-3"
         >
           <div className="chip border-primary/50 bg-primary/15 text-primary">
-            <AlertOctagon className="h-3 w-3" /> Fictional Satire · Not Real Cricket
+            <AlertOctagon className="h-3 w-3" /> Live Momentum Analysis
           </div>
           <div className="chip border-[var(--color-tech)]/50 bg-[var(--color-tech)]/10 text-[var(--color-tech)]">
             <span className="relative flex h-2 w-2">
@@ -57,11 +57,9 @@ export function Hero({ onStart }: HeroProps) {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="mt-8 max-w-2xl text-balance text-base text-muted-foreground sm:text-lg"
         >
-          AI-generated IPL conspiracy drama powered by{" "}
-          <span className="text-foreground">match momentum</span>,{" "}
-          <span className="text-[var(--color-alert)]">betting chaos</span>, and{" "}
-          <span className="text-[var(--color-tech)]">Twitter meltdowns</span>. None of it is real.
-          All of it is cinema.
+          Real-time IPL intelligence powered by AI,{" "}
+          <span className="text-foreground">live momentum tracking</span>, and{" "}
+          <span className="text-[var(--color-tech)]">predictive narrative analysis</span>.
         </motion.p>
 
         <motion.div

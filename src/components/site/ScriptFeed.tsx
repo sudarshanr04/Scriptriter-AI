@@ -25,7 +25,7 @@ export function ScriptFeed({ generating, script, statusIndex }: Props) {
             Section 02 · The Cinema
           </div>
           <h2 className="flex items-center gap-2 font-display text-2xl font-black uppercase tracking-tight">
-            <Film className="h-5 w-5 text-primary" /> AI Script Feed
+            <Film className="h-5 w-5 text-primary" /> Predictive Match Engine
           </h2>
         </div>
         <div className="chip border-primary/40 bg-primary/10 text-primary">
@@ -113,7 +113,7 @@ function OverCard({ over, index }: { over: OverScript; index: number }) {
       <header className="mb-3 flex items-center justify-between">
         <div className="flex items-baseline gap-3">
           <span className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
-            Leaked Script
+            AI Projection
           </span>
           <span className="font-display text-3xl font-black text-glow-drama text-primary">
             OVER {over.over}
