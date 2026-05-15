@@ -80,6 +80,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "The Scriptwriter's Revenge" },
+      { name: "twitter:description", content: "AI-generated IPL conspiracy drama. Fictional satire." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/fdf6e8cc-672f-4411-849f-8de727ad07b8/id-preview-82e54d0a--6a9da9a0-4fc2-45f6-b63a-f1cef30ef18d.lovable.app-1778854296730.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/fdf6e8cc-672f-4411-849f-8de727ad07b8/id-preview-82e54d0a--6a9da9a0-4fc2-45f6-b63a-f1cef30ef18d.lovable.app-1778854296730.png" },
     ],
     links: [
       {
